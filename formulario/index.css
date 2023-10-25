@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-image: url(csgo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    width: 400px;
+    margin-top: 210px ;
+    background-color: rgba(182, 230, 253, 0);
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+
+}
+div input{
+    height: 30px;
+    border: 1px solid #c5c4c4;
+    border-radius: 3px;
+    
+       
+}
+div > input:focus{
+    outline: 2px solid #99dbf5;
+}
+form > input{
+    font-size: 30px;
+    background-color: #0192be;
+    color: white;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    height: 50px;
+    transition: background-color 300ms;
+}
+form > input:hover{
+    background-color: #01aadd;
+    cursor: pointer;
+}
+form  label{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+}
