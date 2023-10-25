@@ -1,7 +1,11 @@
 @font-face {
     font-family: 'amazon';
     src: url(../images/AmazonEmber_Rg.woff);
-   
+}
+@font-face {
+    font-family: 'amazon';
+    src: url(../images/AmazonEmber_Lt.woff);
+    font-weight: 100;
 }
 *{
     margin: 0;
@@ -21,6 +25,7 @@
 .pagina{
     width: 100%;
     height: auto;
+    
 }
 
 header{
@@ -92,6 +97,7 @@ header a:hover{
 main{
     width: 100%;
     height: 1000px;
+    font-weight: 100;
 }
 section:nth-child(1){
     background-image: url(../images/background1.jpg);
@@ -128,9 +134,12 @@ color: #ffffff;
 h2{
     font-size: 40px;
     margin-bottom: 30px;
+    font-weight: 400;
+    
 }
 p{
     font-size: 20px;
+    font-weight: 100;
 }
 .entreAzul{
     width: 280px;
@@ -146,6 +155,9 @@ p{
     background-color: var(--branco);
    
 }
+nav p{
+    font-size: 16px;
+}
 .azulOuBranco{
     margin-bottom: 50px;
 }
@@ -160,38 +172,83 @@ p{
 }
 .azul a{
     color: var(--branco);
+    font-weight: 400;
 }
 .container2{
-    width: 90%;
+    width: 100%;
     height: auto;
     display: flex;
     margin-top: 15px;
     
-
-}
-
-.left{
-    width: 50%;
-    height: auto;
-    margin: 20px 50px;
-    font-weight: lighter;
-    font-size: 50px;
     
 
 }
+
+.LR{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 100px;
+}
+
+.right img:hover{
+    box-shadow: 0px 1px 6px 4px #333;
+    z-index: 10;
+    
+}
+.left{
+    width: 51%;
+    height: auto;
+    font-weight: 100;
+    
+    
+
+}
+
+.left h2{
+    font-size: 42px;
+    font-weight: 100;
+}
+.left p{
+    font-size: 25px;
+}
 .right{
-    width: 50%;
+    width: 49%;
     height: 100%;
     
    
 }
 .right img{
-    width: 260px;
-    height: 185px;
+    width: 255px;
+    height: 180px;
     margin: 1px 2px;
 }
 .container3{
     width: 100%;
-    height: 500px;
+    height: 650px;
     background-image: url(../images/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gradient-prime{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(270deg, #000000 40%, #ffffff00 58%);
+    color: #ffffff;
+}
+.loja-prime{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10%;
+    padding-left: 54.5%;
+
+}
+
+.loja-prime p{
+    margin-bottom: 50px;
+    font-size: 21px;
 }
