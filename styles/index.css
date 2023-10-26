@@ -133,13 +133,13 @@ color: #ffffff;
     margin-bottom: 30px;
     
 }
-h2{
+.anuncio h2{
     font-size: 40px;
     margin-bottom: 30px;
     font-weight: 400;
     
 }
-p{
+.anuncio p{
     font-size: 25px;
     font-weight: 100;
 }
@@ -254,3 +254,60 @@ nav p{
     margin-bottom: 50px;
     font-size: 21px;
 }
+.container4{
+    width: 100%;
+    height: 600px;
+    padding: 100px;
+   
+}
+.funcoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.funcoes div{
+    width: 33%;
+    margin: 10px;
+}
+.funcoes h3{
+    font-weight: 400;
+    font-size: 35px;
+    
+}
+.funcoes p{
+    font-size: 20px;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1700px;
+}
+.link-foot{
+    width: 23%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    text-decoration: none;
+}
+.link-foot a{
+    color:#0f79af;
+    font-weight: 100;
+    font-size: 14.5px;
+    
+}
+.direitos{
+    color: #858585;
+    font-weight: 100;
+    font-size: 15px;
+}
+    
+
+
