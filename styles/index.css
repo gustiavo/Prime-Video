@@ -96,7 +96,6 @@ header a:hover{
 }
 main{
     width: 100%;
-    height: 1000px;
     font-weight: 100;
 }
 section:nth-child(1){
@@ -113,8 +112,8 @@ section:nth-child(1){
     padding: 50px 0;
     width: 100%;
     height: 660px;
-background-image: linear-gradient(90deg, #000000 30%, #ffffff00 60%);
-color: #ffffff;
+    background-image: linear-gradient(90deg, #000000 30%, #ffffff00 60%);
+    color: #ffffff;
 }
 .azul{
     width: 280px;
@@ -134,7 +133,7 @@ color: #ffffff;
     
 }
 .anuncio h2{
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 30px;
     font-weight: 400;
     
@@ -286,7 +285,7 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 1700px;
+    
 }
 .link-foot{
     width: 23%;
