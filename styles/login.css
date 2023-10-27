@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'amazon';
+    src: url(../images/AmazonEmber_Rg.woff);
+}
+@font-face {
+    font-family: 'amazon';
+    src: url(../images/AmazonEmber_Lt.woff);
+    font-weight: 100;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+img{
+    width: 230px;
+    height: 120px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: amazon;
+}
+fieldset{
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 0.1px solid gray;
+}
+
+.titulo h1{
+    font-size: 30px;
+    font-family: amazon;
+    font-weight: 400;
+    margin-bottom: 20px
+    
+}
+.email-ou-num{
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+    font-weight: 800;
+    margin-bottom: 20px
+    
+}
+.email-ou-num input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    
+    
+}
+input:focus{
+    outline: #00f7ff;
+
+}
+.senha{
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px
+
+}
+.senha input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.botao{
+    width: 100%;
+    height: 30px;
+    background-color: #ffdc15;
+    border-radius: 10px;
+    margin-bottom: 20px
+    
+}
+
+.botao:hover{
+    background-color: #f0c14b;
+}
+.botao a{
+    width: 100%;
+    height: 30px;
+    color: black;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+p{
+    font-size: 12px;
+    margin-bottom: 20px
+}
+select{
+    width: 6%;
+}
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.link-foot{
+    width: 23%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    text-decoration: none;
+}
+.link-foot a{
+    color:#0f79af;
+    font-weight: 100;
+    font-size: 14.5px;
+    
+}
+.direitos{
+    color: #858585;
+    font-weight: 100;
+    font-size: 15px;
+}
